@@ -1,0 +1,39 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+nav {
+	background-color: #5602C3;
+	color: White;
+	padding: 15px;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+input {
+	margin-top: 30px;
+	padding: 5px;
+	width: 300px;
+}
+
+button {
+	background-color: #28B3E5;
+	color: White;
+	width: 150px;
+	height: 30px;
+	border: 0;
+	margin-top: 30px;
+}
